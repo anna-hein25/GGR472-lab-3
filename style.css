@@ -1,0 +1,24 @@
+.map-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.map-search-container {
+    position: absolute;
+    font: 14px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background: rgba(255, 255, 255, 0.8);
+    top: 0;
+    left: 0;
+    margin: 10px 0 0 10px; /*top margin, right margin, bottom margin, left margin*/
+    padding: 10px; /*around elements inside of overlay*/
+    overflow: visible;
+}
+
+#geocoder {
+    position: relative;
+    margin: 10px 0 10px;
+}
